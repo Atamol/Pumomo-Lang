@@ -1,0 +1,13 @@
+[package]
+name = "pumomo"
+version = "0.1.0"
+edition = "2024"
+description = "ぷももえん - ガバ穴ダディーの空耳で書くプログラミング言語"
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+opt-level = "s"
+lto = true
+strip = true
